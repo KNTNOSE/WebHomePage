@@ -47,6 +47,12 @@ ul{
     list-style: none;
 }
 
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 p{
     line-height: 1.8;
 }
@@ -169,6 +175,72 @@ input[type="submit"]:hover{
     color: #ffc4c4;
 }
 
+/* news */
+/* お知らせ */
+
+.main-container-news{
+    display: flex;
+    margin-top: 24px;
+    /* border-top: 2px solid #c0c0c0; */
+    /* border-bottom: 2px solid #c0c0c0; */
+    padding: 24px 0;
+}
+
+.news-headline{
+    width: 10%;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.list_recently{
+    width: 80%;
+    border-left: 2px solid #c0c0c0;
+    margin-bottom: 0;
+    padding-left: 34px;
+}
+
+.topic{
+    display: flex;
+    align-items: center;
+}
+
+.topic span{
+    margin-right: 24px;
+    align-items: center;
+}
+
+.topic p {
+    text-align: left;
+    margin: 0; /* デフォルトのマージンをリセット */
+    flex: 1; /* 残りのスペースを均等に分ける */
+}
+
+@media (max-width: 480px){
+    .main-container-news{
+        display: block;
+        width: 90%;
+    }
+
+    .news-headline{
+        width: 90%;
+        text-align: left;
+    }
+
+    .list_recently{
+        width: 100%;
+        border-left: none;
+    }
+
+    .list_recently li+li{
+        display: none;
+    }
+
+    .list_recently{
+        padding-left: 1rem;
+    }
+
+}
+
 /* Main - Works */
 .main-works{
     background-color: #fff7f7;
@@ -190,24 +262,6 @@ input[type="submit"]:hover{
 
 .main-works-item-img.secondary img{
     box-shadow: 1px 1px 10px rgba(0,0,0,15%),10px 10px 0 #A9A9A9;
-}
-
-/* Main - About */
-.main-about{
-    background-color: #fff7f7;
-}
-
-.main-about-addition-skills ul{
-    
-    list-style-type: disc;
-}
-
-.main-about-addition-follow a{
-    color: #C2B2B4;
-}
-
-.main-about-addition-follow a:hover, .main-about-addition-follow a:focus{
-    color: #ab9698;
 }
 
 /* Footer */

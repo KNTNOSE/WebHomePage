@@ -36,8 +36,13 @@
 
     .header-nav-menu-item > a{
         font-size: 1.5rem;
-    }    
+    }
     
+    /* news */
+    .news{
+        margin: 64px 0;
+    }
+
     /* Main - Hero */
     .main-hero{
         padding: 140px 0 100px;
@@ -52,6 +57,12 @@
         width: 60%;
     }
 
+    .main-hero-highlight-links{
+        padding: 34px 34px 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .main-hero-img{
         display: block;
         width: 40%;
@@ -61,6 +72,21 @@
     .main-hero-img img{
         border-radius: 50%;
     }
+
+    .main-about-addition-skills{
+        display: flex;
+    }
+
+    .main-about-addition-skills ol+ol{
+        padding-left: 42px;
+    }
+
+    .main-about-addition-skills li{
+        padding: 6px 0;
+    }
+
+
+
 
     /* Main - Works */
     .main-works{
@@ -84,39 +110,12 @@
         padding: 0 30px;
     }
 
-    /* Main - About */
-    .main-about{
-        padding: 100px 0;
-    }
-
-    .main-about-img .mobile{
-        display: none;
-    }
-
     .main-about-img .tablet-and-up{
         display: block;
         width: 100%;
-        margin-bottom: 60px;
     }
 
-    .main-about-container{
-        display: flex;
-    }
 
-    .main-about-description,
-    .main-about-addition{
-        width: 50%;
-    }
-
-    .main-about-description{
-        margin-right: 25px;
-        margin-bottom: 0;
-    }
-
-    .main-about-addition{
-        margin-left: 25px;
-        margin-bottom: 0;
-    }
 
 }
 

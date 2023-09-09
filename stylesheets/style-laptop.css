@@ -36,9 +36,7 @@
     }
 
     /* Main - Works */
-    .main-works{
-        padding: 120px 0;
-    }
+
 
     .main-works-item{
         margin: 0 -60px 100px;
@@ -59,27 +57,6 @@
         box-shadow: 
         1px 1px 10px rgba(0, 0, 0, 15%),
         30px 30px 0 #6b4e71;
-    }
-
-    /* Main - About */
-    .main-about{
-        padding: 120px 0;
-    }
-
-    .main-about-img{
-        margin-bottom: 100px;
-    }
-
-    .main-about-addition-skills{
-        display: flex;
-    }
-
-    .main-about-addition-skills ul{
-        margin-bottom: 0;
-    }
-
-    .main-about-addition-skills ul+ul{
-        margin-left: 30px;
     }
 
     /* Footer */
