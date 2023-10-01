@@ -75,5 +75,34 @@ h3{
     width:60%;
 }
 
+/* assignment */
+.assignments{
+    padding-bottom: 1.5rem;
+}
+.assignments-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* This will create 3 columns. Adjust the number as needed */
+    gap: 20px;
+
+}
+
+.assignment-item {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.assignment-item a {
+    display: block;
+    margin-top: 10px;
+    color: #3a4454;
+    text-decoration: none;
+}
+
+.assignment-item a:hover {
+    text-decoration: underline;
+
+}
+
 }
 

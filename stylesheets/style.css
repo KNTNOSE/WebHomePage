@@ -9,8 +9,11 @@ html{
 body{
     color:#3A4454;
     font-family:"Helvetica Naue","Helvetica","Hiragino Sans","Hiragino Kaku Gothic Pron","Arial","Yu Gothic","Meiryo",sans-serif;
+    width: 100%;
 }
-
+main{
+    width: 100%;
+}
 figure{
     margin:0;
 }
@@ -88,7 +91,7 @@ input[type="submit"]:hover{
 }
 
 .button-secondary{
-    background-color:#A9A9A9;
+    background-color:#656565;
 }
 
 .button-primary:hover,.button-primary:focus{
@@ -110,7 +113,7 @@ input[type="submit"]:hover{
 }
 
 .header{
-    background-color:#A9A9A9;
+    background-color:#656565;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -140,11 +143,11 @@ input[type="submit"]:hover{
 }
 
 .main-hero{
-    background-color:#A9A9A9;
+    background-color:#656565;
 }
 
 .main-hero-highlight,.main-hero-highlight-links a{
-    color:#FFF7F7;
+    color:#fff7f7;
 }
 
 .main-hero-highlight-links p{
@@ -241,7 +244,7 @@ input[type="submit"]:hover{
 }
 
 .footer{
-    background-color:#A9A9A9;
+    background-color:#656565;
     color:#FFF7F7;
 }
 
@@ -251,13 +254,13 @@ input[type="submit"]:hover{
 
 .footer-form-input{
     position:relative;
-    background-color:#848080;
+    /* background-color:#848080; */
     border-radius:5px;
 }
 
 .footer-form-input i{
     position:absolute;
-    top:12px;
+    top:28px;
     left:15px;
     color:#FFF7F7;
 }
@@ -267,7 +270,7 @@ input[type="submit"]:hover{
 }
 
 .footer-form-textarea{
-    background-color:#848080;
+    /* background-color:#848080; */
     border-radius:5px;
     padding-bottom:0px;
 }
@@ -327,6 +330,6 @@ input[type="submit"]:hover{
 }
 
 .footer-info-copy,.footer-info-follow i{
-    color:#848080;
+    color:#fff7f7;
 }
 
