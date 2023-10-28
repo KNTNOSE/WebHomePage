@@ -1,0 +1,5 @@
+.infinite-scroll-text {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}

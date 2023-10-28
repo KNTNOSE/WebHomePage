@@ -58,17 +58,18 @@ h3{
     width:40%;
 }
 
-.footer-form form{
-    display:flex;
-    flex-wrap:wrap;
+
+.user_name{
+    display: flex;
 }
 
-.footer-form-input{
-    width:49%;
+.user_address input{
+    margin-bottom: 0.5rem;
 }
 
-.footer-form-input + .footer-form-input{
-    margin-left:2%;
+
+#state{
+    width: 100%;
 }
 
 .footer-info{
@@ -76,33 +77,7 @@ h3{
 }
 
 /* assignment */
-.assignments{
-    padding-bottom: 1.5rem;
-}
-.assignments-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* This will create 3 columns. Adjust the number as needed */
-    gap: 20px;
 
-}
-
-.assignment-item {
-    border: 1px solid #e0e0e0;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.assignment-item a {
-    display: block;
-    margin-top: 10px;
-    color: #3a4454;
-    text-decoration: none;
-}
-
-.assignment-item a:hover {
-    text-decoration: underline;
-
-}
 
 }
 

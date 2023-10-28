@@ -1,3 +1,18 @@
+@media print {
+    img {
+        display: none;
+    }
+    ol.assignments_list li a {
+        color: green;
+    }
+    ol.assignments_list li{
+        list-style-type: upper-roman;
+    }
+    .introduction-paragraph {
+        font-family: Arial, sans-serif;
+    }
+}
+
 *,*::before,*::after{
     box-sizing:border-box;
 }
@@ -46,7 +61,6 @@ ul{
 ol{
     margin:0;
     padding:0;
-    list-style:none;
 }
 
 p{
@@ -243,6 +257,8 @@ input[type="submit"]:hover{
     box-shadow:1px 1px 10px rgba(0,0,0,15%),10px 10px 0 #A9A9A9;
 }
 
+/* footer */
+
 .footer{
     background-color:#656565;
     color:#FFF7F7;
@@ -265,6 +281,9 @@ input[type="submit"]:hover{
     color:#FFF7F7;
 }
 
+#icon_envelope{
+    top: 88px;
+}
 .footer-form-input input{
     padding:10px 15px 10px 40px;
 }

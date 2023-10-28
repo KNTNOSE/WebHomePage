@@ -1,0 +1,26 @@
+@media print {
+    img {
+        display: none;
+    }
+    ol.assignments_list li a {
+        color: green;
+    }
+    ol.assignments_list li{
+        list-style-type: upper-roman;
+    }
+    .introduction-paragraph {
+        font-family: Arial, sans-serif;
+    }
+}
+/* main-hero */
+.right-float {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.main-hero-highlight h1,
+.main-hero-highlight p{
+    font-family: Verdana, Arial, sans-serif;
+}
