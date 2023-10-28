@@ -1,0 +1,63 @@
+.assignments{
+    padding-bottom: 1.5rem;
+}
+.assignments-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* This will create 3 columns. Adjust the number as needed */
+    gap: 20px;
+
+}
+
+.assignment-item {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.assignment-item a {
+    display: block;
+    margin-top: 10px;
+    color: #3a4454;
+    text-decoration: none;
+}
+
+.assignment-item a:hover {
+    text-decoration: underline;
+
+}
+
+.assignment-table{
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.table {
+    background-color: rgb(220, 220, 220); /* これはテーブルの背景色です。 */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkgray; /* これはヘッダセルの背景色です。 */
+    color: black; /* これはヘッダセルのフォントカラーです。 */
+    padding: 10px;
+    font-family: Tahoma, sans-serif; /* これはヘッダセルのフォントファミリーです。 */
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.multimedia{
+    padding: 1.5rem 0 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+/* multimedia.html */
+.multimedia h3{
+    margin: 0;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
